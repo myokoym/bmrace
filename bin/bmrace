@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require "bmrace/command"
+
+Bmrace::Command.ready(*ARGV).go!
